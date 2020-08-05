@@ -30,12 +30,7 @@ jobs:
     - name: Install Dependencies
       run: npm install
       
-        
-        cmd: install
-        
-     - name: creating build
-       run: yarn build
-        
+    
       
     # Runs a set of commands using the runners shell
     - name: installing surge
