@@ -45,7 +45,7 @@ jobs:
     --token $ {{secrets.SURGE_TOKEN}} # your project path
       
     
-     run: surge ./build http://brown-carpenter.surge.sh/ 
+    # run: surge ./build http://brown-carpenter.surge.sh/ 
      #--token $ {{secrets.SURGE_TOKEN}}
        
 
