@@ -39,7 +39,7 @@ jobs:
     - name: Publish to surge.sh
       uses: ./build http://brown-carpenter.surge.sh-action@v1.0.0
          
-    # your surge.sh domain to deploy
+    # your surge.sh domain to deployd
     
     token: 
     --token $ {{secrets.SURGE_TOKEN}} # your project path
