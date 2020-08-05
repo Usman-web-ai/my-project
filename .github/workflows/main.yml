@@ -38,9 +38,7 @@ jobs:
       
     - name: Publish to surge.sh
       uses: dswistowski/surge-sh-action@v1.0.0
-          
-        with:
-          http://brown-carpenter.surge.sh/
+         
     # your surge.sh domain to deploy
     
     token: 
